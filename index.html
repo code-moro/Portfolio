@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js" integrity="sha512-elauk8NI35rjTlatfRQxeqmJoieQlfm0W8AeQVps+j+KkMDdaqNxVazFzwyU7uSOyeeVn/VLbGYLwOR/D5I6Kw==" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="papp.js" defer></script>
+</head>
+<body>
+            <header class="header nav">
+                <div class="logo">Maddy</div>
+                <a href="#" class="toggle">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <nav class="links">
+                  <ul>
+                    <li><a href="#home" class="hover-link">Home</a></li>
+                    <li><a href="#about"class="hover-link">About</a></li>
+                    <li><a href="#skill"class="hover-link">Skills</a></li>
+                    <li><a href="#work" class="hover-link">Work</a></li>
+                    <li><a href="#contact"class="hover-link">Contact</a></li>
+                  </ul>
+                </nav>       
+                </header>
+              <section class="Home bg-flex" id="home">
+                <div class="home_container">
+                  <div class="home_text">
+                      <P>
+                        Hi,<br>
+                        I'am  <span class="blue">Maddy</span><br>
+                        <span class="typing" >Web Developer</span>
+                      </P>
+                  </div>
+                <div class="home_img">
+                  <img src="svg.svg"  alt="">
+                </div>           
+                </div>
+                <a href="Resume.pdf" class="home_btn">Download CV</a>
+                <div class="home_icon">
+                  <a href="https://www.linkedin.com/in/mayur-kadam-82770b1ab" class="icon" ><i  class='bx bxl-linkedin-square'></i></a>
+                  <a href="https://github.com/code-moro" traget="_blank" class="icon"><i  class='bx bxl-github'></i></a>
+                  <a href="#" class="icon"><i  class='bx bxl-instagram-alt' ></i></a>
+                </div>
+              </section>
+
+              <section class="about bg-flex" id="about">
+                <h2 class="title">About</h2>
+                <div class="about_container">
+                  <div class="about_img">
+                    <img src="img/about.jpg">
+                  </div>
+                  <div class="about_text">
+                    <h2>I'am Maddy</h2>
+                    <p>
+                      I am a Web Developer with enthusiasm and focus on Frontend Development and Scripting.I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.Feel free to contact me via email at any time
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+             <section class="Skills bg-flex" id="skill">
+                <h2 class="title">Skills</h2>
+                <div class="skill_container">
+                      <div class="skill_text">
+                        <h2>Professional Skills</h2>
+                        <p>
+                          I have strong experience in HTML5, CSS3, SCSS, JavaScript. I am also good with C++, Bootstrap & Github. I have also professional experience with Photoshop, Figma.
+                        </p>
+                        <div class="skill_menu">
+
+                          <div class="skill_data">
+                            <div class="skill_progress">           
+                            <div class="skill_info">
+                              <i class='bx bxl-html5 icon_skill'></i>
+                              <span class="skillname">HTML5</span></div>
+                              <div><span class="skillper">95%</span></div> 
+                              </div>
+                              <div class="skillbar html"></div>
+                          </div>
+
+                          <div class="skill_data">
+                            <div class="skill_progress">           
+                            <div class="skill_info">
+                              <i class='bx bxl-css3 icon_skill'></i>
+                              <span class="skillname">CSS</span></div>
+                              <div><span class="skillper">85%</span></div> 
+                              </div>
+                              <div class="skillbar css"></div>
+                          </div>
+
+                          <div class="skill_data">
+                            <div class="skill_progress">           
+                            <div class="skill_info">
+                              <i class='bx bxl-javascript icon_skill'></i>
+                              <span class="skillname">Javascript</span></div>
+                              <div><span class="skillper">75%</span></div> 
+                              </div>
+                              <div class="skillbar js"></div>
+                          </div>
+                          
+                          
+                              <div class="skill_data">  
+                                <div class="skill_progress">            
+                                <div class="skill_info">
+                                  <i class='bx bxs-paint icon_skill'></i>
+                                  <span class="skillname">UI</span></div>
+                                  <div class="skillper">40%</div> 
+                                </div>
+                                  <div class="skillbar ui"></div>
+                              </div>
+                                    
+                        
+                        </div>
+                        
+                      </div>
+                      <div class="skill_img">
+                        <img src="img/skill.jpg">
+                      </div>
+                </div>
+              </section>
+              <section class="Work bg-flex" id="work">  
+              <h2 class="title">
+                Work
+              </h2> 
+              <div class="work_container">
+                <div class="work_img">
+                  <a href="https://github.com/code-moro/E-commerce"><img  class="img_work" src="img/work1.jpg" alt=""></a>
+            
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Price Traker</a>
+                </div>
+                </div>
+          
+                <div class="work_img">
+                  <a href="https://code-moro.github.io/Landing-Page/" ><img  class="img_work"src="img/work2.jpg" alt=""></a>
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Landing Pages</a>
+                </div>
+                </div>
+          
+                <div class="work_img">
+                  <a href="https://github.com/code-moro/Attendance-Marking-System" ><img class="img_work" src="img/work3.jpg" alt=""></a>
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Attendance Traking system</a>
+                </div>
+                </div>
+          
+                <div class="work_img">
+                  <a href="https://code-moro.github.io/checklist/" ><img class="img_work" src="img/work4.jpg" alt=""></a>
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Checklist</a>
+                </div>
+                </div>
+          
+                <div class="work_img">
+                  <a href="https://www.figma.com/proto/flCjfrQmAlOq1cuEWm4nWw/Untitled?node-id=2%3A3&scaling=scale-down"><img  class="img_work" src="img/work5.jpg" alt=""></a>
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Prototype</a>
+                </div>
+                </div>
+          
+                <div class="work_img">
+                  <img  class="img_work" src="img/work6.jpg" alt="">
+                  <div class="portfolio">
+                    <a href="#" class="portfolio__link-name">Blockchain</a>
+                </div>
+                </div>
+              </div>
+              </section>
+              <section class="contact bg-flex" id="contact">
+                <h2 class="title">
+                  Contact
+                </h2>
+                <div class="contact_container">
+                  <input type="text" placeholder="Name"class="contact_input"/>
+                  <input type="email" placeholder="Email"class="contact_input"/>
+                  <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+                  <input type="button" value="Contact" class="contact_button">
+                </div>
+              </section>
+              <footer class="footer">
+                <p class="footer_title">Maddy</p>
+                <div class="footer_social">
+                  <a href="#" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+                  <a href="#"class="footer_icon"><i class="bx bxl-instagram"></i></a>
+                  <a href="https://twitter.com/Maddy_1900?s=09"class="footer_icon"><i class="bx bxl-twitter"></i></a>
+                </div>
+              <p class="description">&#169;2020 Copyright All Right Reserved</p>
+              <p class="description">Developed By Codemaddy</p>
+              </footer> 
+        <div class="overlay">
+          <div class="layer layer1"></div>
+          <div class="layer layer2"></div>
+          <div class="layer layer3"></div>
+        </div>
+</body>
+</html>
